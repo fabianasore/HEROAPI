@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body class="gradient" style="background-color: rgb(0, 0, 0);">
+    <div> <h2 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(255, 255, 255); font-size: 100px; bor">Hero Api</h2>
+    </div>
+    <div class="form" >  
+      
+        <form action="../v1/Api.php" method="post" >
+            <b style="color: rgb(255, 255, 255);">ID Personagem:</b> <br> 
+          <br><input  type="text" name="id"> <br><br>
+          <b style="color: rgb(255, 255, 255);">Nome Personagem:</b> <br> 
+          <br><input  type="text" name="name"> <br><br>
+          <b style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(255, 255, 255);"> Nome Real: </b> <br> <br>
+          <input type="text" name="realname"> <br><br>
+            <b style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(255, 255, 255);">Avaliação:</b> <br> <br> <input type="text" name="rating"> <br><br>
+           <b style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(255, 255, 255);"> Time:</b> <br> <br> <input type="text" name="teamaffiliation"> <br><br>
+           &nbsp; &nbsp; &nbsp;
+            
+            <button id="submit" type="submit" value="Adicionar heroi" name = "createhero" formmethod="post" style="padding: 5px; background-color: #8946A6; border-color: #B762C1; border-width: 5px;">Enviar</button>
+            <button id="reset" type="reset " style="padding: 5px; background-color: #8946A6; border-color: #B762C1; border-width: 5px;">Limpar</button>
+            <button id="Mostrar" type="submit" value="Mostrar heroi" name = "getheroes" formmethod="post" style="padding: 5px; background-color: #8946A6; border-color: #B762C1; border-width: 5px;" >Herois</button>
+    
+            <button id="del" type="submit" value="Deletar heroi" name = "deletehero" formmethod="post" style="padding: 5px; background-color: #8946A6; border-color: #B762C1; border-width: 5px;">Deletar</button>
+    
+            <button id="alter" type="submit" value="Atualizar heroi" name = "updatehero" formmethod="post" style="padding: 5px; background-color: #8946A6; border-color: #B762C1; border-width: 5px;">Alterar</button>
+           
+
+       
+        </form>
+
+    </div>
+    
+
+    
+</body>
+</html>
